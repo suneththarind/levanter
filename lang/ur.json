@@ -158,12 +158,12 @@
     },
     "greetings": {
       "welcome_desc": "*_New members ko welcome message bhejein ✨_*",
-      "welcome_example": "_Welcome abhi tak hai {0}\n\nAbi ky liye, visit: https://levanter-plugins.vercel.app/faq_",
+      "welcome_example": "_Welcome abhi tak hai {0}\n\nAbi ky liye, visit: https://levanter-delta.vercel.app/_",
       "welcome_enable": "_Welcome abhi on hai_",
       "welcome_disable": "_Welcome abhi off hai_",
       "welcome_delete": "_Welcome message delete kar diya gaya hai_",
       "goodbye_desc": "*_Members ko goodbye message bhejein._*",
-      "goodbye_example": "*Goodbye abhi tak hai {0}\n\nAbhi ky liye, visit: https://levanter-plugins.vercel.app/faq*",
+      "goodbye_example": "*Goodbye abhi tak hai {0}\n\nAbhi ky liye, visit: https://levanter-delta.vercel.app/*",
       "goodbye_enable": "_Goodbye abhi on hai_",
       "goodbye_disable": "_Goodbye abhi off hai_",
       "goodbye_delete": "_Goodbye message delete kar diya gaya hai_"
@@ -358,7 +358,7 @@
       "usage": "*Misal:* _mention chalu | band | hasil karein (Kisi paighaam ka jawab dein taake aik khas shakhs ko nishana banaya ja sake.)_",
       "desc": "_Mention ka intizami aur moattali jawab ka nizam banayein_",
       "not_activated": "*_Reply-to mention band hai._*",
-      "current_status": "_Mention hai {0}. Tafseelat ke liye dekhein: https://levanter-plugins.vercel.app/faq_",
+      "current_status": "_Mention hai {0}. Tafseelat ke liye dekhein: https://levanter-delta.vercel.app/_",
       "activated": "*_Reply-to mention active kar diya gaya hai._*",
       "deactivated": "_Reply-to mention band kar diya gaya hai_",
       "updated": "*_mention ki settings update kar di gayi hain._*"
@@ -596,7 +596,7 @@
     },
     "tag": {
       "usage": "*Misaal:* _tag all | tag admin | tag notadmin | tag <custom message> (ya kisi message par 'tag' likh kar reply karein)._",
-      "desc": "_Group members ko tag karein apni pasand ke mutabiq. 'all' ka use sabhi members ko mention karne ke liye karein, 'admin' sirf group admins ko mention karega, 'notadmin' non-admin members ko mention karega, ya phir ek custom message bhejne ke liye apni message likhein_",
+      "desc": "_Group members ko tag karein apni pasand ke mutabiq. 'all' ka use sabhi members ko mention karne ke liye karein, 'admin' sirf group admins ko mention karega, 'notadmin' non-admin members ko mention karega, ya phir ek custom message bhejne ke liye apni message likhein_"
     },
     "tictactoe": {
       "usage": "*Misaal:* _tictactoe <opponent_jid> YA tictactoe restart <opponent_jid> YA tictactoe end_",
@@ -676,7 +676,7 @@
     },
     "warn": {
       "usage": "*Misaal:* _warn @user YA warn reset @user. Aap kisi user ke message par reply kar ke bhi 'warn' ya 'warn reset' likh sakte hain._",
-      "desc": "*_Group chat me kisi user ko warn karein. Yeh command user ki warning count ko badhati hai. Agar count limit se zyada ho jaye, to user ko group se nikal diya jayega. 'warn reset' ka use kisi user ki warnings clear karne ke liye karein._"",
+      "desc": "*_Group chat me kisi user ko warn karein. Yeh command user ki warning count ko badhati hai. Agar count limit se zyada ho jaye, to user ko group se nikal diya jayega. 'warn reset' ka use kisi user ki warnings clear karne ke liye karein._",
       "reset_usage": "*Misaal:* _warn reset @user (ya user ke message par reply karke 'warn reset' likhein)._",
       "cannot_remove_admin": "_Main kisi admin ko remove nahi kar sakta._"
     },
@@ -714,6 +714,13 @@
       "up_to_date": "*Bot already up-to-date hai. Koi update available nahi hai.*",
       "updating": "_Updating bot..._",
       "updated": "_Bot successfully update ho gaya hai!_"
+    },
+    "antigm": {
+      "usage": "> Usage:\n- antigm <on|off> — Enable or disable anti group mention\n- antigm <delete|warn|kick> — Set action when someone mentions the group\n- antigm ignore <jid,jid,jid,...> — Ignore anti group mention from specific groups",
+      "action": "Action updated: group mentions will now result in *{0}*.",
+      "filter": "Ignore JIDs updated for anti group mention.",
+      "enabled": "Anti group mention has been enabled.",
+      "disabled": "Anti group mention has been disabled."
     }
   }
 }

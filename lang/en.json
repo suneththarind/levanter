@@ -158,12 +158,12 @@
     },
     "greetings": {
       "welcome_desc": "Send a welcome message to new members",
-      "welcome_example": "Welcome is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
+      "welcome_example": "Welcome is currently {0}\n\nFor more details, visit: https://levanter-delta.vercel.app/",
       "welcome_enable": "_Welcome is now enabled_",
       "welcome_disable": "_Welcome is now disabled_",
       "welcome_delete": "_Welcome message deleted_",
       "goodbye_desc": "Send a goodbye message to members",
-      "goodbye_example": "Goodbye is currently {0}\n\nFor more details, visit: https://levanter-plugins.vercel.app/faq",
+      "goodbye_example": "Goodbye is currently {0}\n\nFor more details, visit: https://levanter-delta.vercel.app/",
       "goodbye_enable": "_Goodbye is now enabled_",
       "goodbye_disable": "_Goodbye is now disabled_",
       "goodbye_delete": "_Goodbye message deleted_"
@@ -358,7 +358,7 @@
       "usage": "Example: mention on | off | get\n(Reply to a message to target a specific user.)",
       "desc": "Configure and manage the mention feature for automated replies.",
       "not_activated": "Reply to mention not activated.",
-      "current_status": "Mention is {0}. For details, visit: https://levanter-plugins.vercel.app/faq",
+      "current_status": "Mention is {0}. For details, visit: https://levanter-delta.vercel.app/",
       "activated": "Reply-to mention activated.",
       "deactivated": "Reply-to mention deactivated.",
       "updated": "Mention settings updated."
@@ -714,6 +714,13 @@
       "up_to_date": "Bot is already up-to-date. No updates available.",
       "updating": "Updating bot...",
       "updated": "Bot has been successfully updated!"
+    },
+    "antigm": {
+      "usage": "> Usage:\n- antigm <on|off> — Enable or disable anti group mention\n- antigm <delete|warn|kick> — Set action when someone mentions the group\n- antigm ignore <jid,jid,jid,...> — Ignore anti group mention from specific groups",
+      "action": "Action updated: group mentions will now result in *{0}*.",
+      "filter": "Ignore JIDs updated for anti group mention.",
+      "enabled": "Anti group mention has been enabled.",
+      "disabled": "Anti group mention has been disabled."
     }
   }
 }
